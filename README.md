@@ -90,7 +90,11 @@ Tem-se a seguinte matriz de entrada com tamanho 10x10 que após 10 gerações de
 ## Conclusão
 <p align="justify">
   Por fim, percebe-se que há um comportamento que se estende ao longo das gerações, formando espécies de quadrados 2x2 isolados por volta de células mortas que devido as regras e funcionamento se mantém vivos mas sem capacidade de proliferação para demais grupos. Outros comportamentos comuns é um grande grupo de células vivas ao longo das gerações formarem diversos grupos com formações variadas dependendo de como as células mortas estão posicionadas.
+</p>
+<p align="justify">
   Em suma, este comportamento e dentre outras várias familiaridades que esse programa discute podem ser observados nas dissertações de John Conway, que através de seus estudos buscou internalizar melhor a matemática que envolvia todo esse sistema, classificando como um dos mais importantes. Como exemplo, formas fixas que conseguem se manter durante gerações formando grupos que se assemelham a objetos ou animações.
+</p>
+<p align="justify">
   O Jogo da Vida de Conway nos faz pensar: se um universo tão complexo pode surgir de regras tão simples, quem sabe se nosso próprio universo real não funciona de forma semelhante, talvez como um jogo em uma dimensão superior? Isso adiciona uma camada interessante ao debate sobre se vivemos em um universo incrivelmente ajustado, nos fazendo questionar se há algum tipo de design inteligente por trás de toda essa ordem aparente.
 </p> 
 

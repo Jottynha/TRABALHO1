@@ -29,8 +29,6 @@ Toda célula viva com dois ou três vizinhos vivos permanece viva.
 - ```matriz.cpp```: arquivo que contém o código de funcionamento das funções da classe Matriz (manipulação);
 - ```main.cpp```: arquivo principal.
 
-![Exemplo de Imagem](figuras/Screenshot-2.png)
-
 ## Resolução do problema
 <p align="justify">
 Inicialmente decidi como minha matriz seria implementada, então decidi trabalhar com a biblioteca "vector" devido a sua facilidade na manipulação de vetores. Transformando a minha matriz em um vetor de vetores de tipo inteiro. Também precisaria da biblioteca "fstream" para manipular os arquivos de texto. Além disso adaptei meu sistema para utilizar apenas duas matrizes e alternar entre estas durante a execução. Assim criei a classe Matriz para uma melhor organização e implementei os seguintes comandos:

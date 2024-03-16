@@ -68,8 +68,8 @@ Agora indo para os casos de testes, iremos testar matrizes distintas com tamanho
 
 Tem-se a seguinte matriz de entrada que deve resultar na seguinte matriz de saída:
 <p align="center">
-  <img src="figuras/CASO1ENTRADA.png" alt="Entrada do caso 1" width="400" height="300">
-  <img src="figuras/CASO1SAIDA.png" alt="Saida esperada do caso 1" width="400" height="300">
+  <img src="figuras/CASO1ENTRADA.png" alt="Entrada do caso 1" style="float:right; max-width:45%;">
+  <img src="figuras/CASO1SAIDA.png" alt="Saida esperada do caso 1" style="float:right; max-width:45%;">
 </p>
 
 

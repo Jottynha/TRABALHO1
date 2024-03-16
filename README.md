@@ -1,7 +1,10 @@
 # Jogo da Vida - Simulação em Matriz
 
 Este é um projeto que implementa o "Jogo da Vida" de John Conway, uma simulação de automato celular em uma matriz bidimensional.
-![JOGO DA VIDA](https://res.cloudinary.com/practicaldev/image/fetch/s--zzjhiEgj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6kefkya5x9wfz94hmku.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--zzjhiEgj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6kefkya5x9wfz94hmku.png" alt="JOGO DA VIDA">
+</p>
+
 
 ## Descrição
 

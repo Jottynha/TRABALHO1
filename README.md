@@ -29,7 +29,7 @@ Toda célula viva com dois ou três vizinhos vivos permanece viva.
 - ```matriz.cpp```: arquivo que contém o código de funcionamento das funções da classe Matriz (manipulação);
 - ```main.cpp```: arquivo principal.
 
-![Exemplo de Imagem](figuras/Matriz.HPP.png)
+![Exemplo de Imagem](figuras/MatrizHPP.png)
 
 ## Resolução do problema
 <p align="justify">

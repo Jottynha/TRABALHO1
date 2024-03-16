@@ -106,6 +106,7 @@ void Matriz::menu(){
     Matriz m;
     vector<vector<int>> matriz1 = m.lerMatriz("datasets/entrada.mps");
     vector<vector<int>> matriz2;
+    m.registrarMatriz(matriz1,"datasets/geracoes.mps",0);
     for(int a=0;a<geracoes;a++){
         if(a%2==0){
             cout << endl << endl << "[MATRIZ 1]:" << endl << endl;
@@ -113,13 +114,13 @@ void Matriz::menu(){
             m.criarGeracao(matriz1,matriz2);
             cout << endl << endl << "[MATRIZ 2]:" << endl << endl;
             m.printarMatriz(matriz2);
-            m.registrarMatriz(matriz2,"datasets/Geracoes.mps",a);
+            m.registrarMatriz(matriz2,"datasets/geracoes.mps",a+1);
             m.limparMatriz(matriz1);
         } else {
             m.criarGeracao(matriz2,matriz1);
             cout << endl << endl << "[MATRIZ 1]:" << endl << endl;
             m.printarMatriz(matriz1);
-            m.registrarMatriz(matriz1,"datasets/Geracoes.mps",a);
+            m.registrarMatriz(matriz1,"datasets/geracoes.mps",a+1);
             m.limparMatriz(matriz2);
         }
     }   

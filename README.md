@@ -67,6 +67,11 @@ A função "registrarMatriz" abre o arquivo para escrita, utiliza de um for do t
 Agora indo para os casos de testes, iremos testar matrizes distintas com tamanhos distintos,variando entre uma de tamanho 6x6, outra 8x8 e por fim uma 10x10. 
 
 Tem-se a seguinte matriz de entrada que deve resultar na seguinte matriz de saída:
+<p align="center">
+  <img src="figuras/CASO1ENTRADA.png" alt="Entrada do caso 1" width="400" height="300">
+  <img src="figuras/CASO1SAIDA.png" alt="Saida esperada do caso 1" width="400" height="300">
+</p>
+
 
 </p>
 

@@ -50,6 +50,10 @@ Inicialmente decidi como minha matriz seria implementada, então decidi trabalha
   <img src="figuras/MAIN.png" alt="Main">
 </p>
 
+Agora indo para os casos de testes, iremos testar matrizes distintas com tamanhos distintos,variando entre uma de tamanho 5x5, outra 8x8 e por fim uma 10x10. 
+
+Tem-se a seguinte matriz de entrada que deve resultar na seguinte matriz de saída:
+
 </p>
 
 

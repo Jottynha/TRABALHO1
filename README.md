@@ -50,6 +50,20 @@ Inicialmente decidi como minha matriz seria implementada, então decidi trabalha
   <img src="figuras/MAIN.png" alt="Main">
 </p>
 
+Inicialmente o programa executa o menu, que por sua vez solicita ao usuário o númerode geracões que serão geradas e arquivadas. Após isso criamos um objeto Matriz "m" para dar inicio as funções, sendo a primeira colocar dentro de uma das matrizes declaradas com vector a matriz do arquivo através da função "lerMatriz", a segunda permanece vazia para receber a primeira geração. Após isso também registramos a matriz do arquivo "input.mps" no arquivo "geracoes.mps".
+
+Depois disso iniciamos um for que irá percorrer o número de gerações solicitado, variando entre uma geração par no primeiro bloco IF, onde chama-se a função criarGeracao que recebe a "matriz1" (matriz lida do arquivo) e joga a nova geração para a segunda matriz, printando as mesmas para analise no terminal, registrando a "matriz2" (matriz ainda vazia) no arquivo, logo apos limpando a matriz1 para o ciclo. E o segundo bloco If, que é executado em gerações ímpares executa o mesmo processo, porém com a matriz2 agora funcionando como entrada e sendo limpada ao fim enquanto a matriz1 é registrada no arquivo, e repetindo o ciclo até o fim do for.
+
+A função "lerMatriz" utiliza da biblioteca fstream para ler do arquivo, retornando uma matriz de vetor de vetores de inteiros. No inicio do arquivo consta o tamanho da matriz quadrada, assim o programa lê o mesmo e ignora o proximo char (\n). Após isso o for do tamanho da matriz lê char por char e transforma o char em um inteiro através do codigo ASCII.
+
+A função "printarMatriz" utiliza de uma função da vector para receber o tamanho dos vetores e percorre a matriz printando os dados ali dentro.
+
+A função "criarGeracao" recebe a matriz de entrada e analisa dado por dado através de um bloco for que ignora elementos que poderiam ser acessados por engano por fora da matriz. Inicializando os contadores de "0" e "1" em 0, além de utilizar de for com indices nj e ni para evitar os acessos fora da memória como citados acima através do if dentro destes. E assim ele contabiliza os dados ao redor da posição da matriz e no fim faz a analise, jogando o resultado para a segunda matriz da função.
+
+A função "limparMatriz" recebe uma matriz e limpa elemento por elemento através de um for do seu tamanho.
+
+A função "registrarMatriz" abre o arquivo para escrita, utiliza de um for do tamanho da matriz recebida e coloca dentro do arquivo a matriz desejada, junto com o número da geração estabelecido.
+
 Agora indo para os casos de testes, iremos testar matrizes distintas com tamanhos distintos,variando entre uma de tamanho 5x5, outra 8x8 e por fim uma 10x10. 
 
 Tem-se a seguinte matriz de entrada que deve resultar na seguinte matriz de saída:

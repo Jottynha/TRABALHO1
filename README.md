@@ -17,7 +17,7 @@ Toda célula viva com mais de três vizinhos vivos morre por superpopulação.
 Toda célula viva com dois ou três vizinhos vivos permanece viva.
 
 <p align="center">
-  <img src="(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdev.to%2Fakadot_%2Fpraticando-html-css-e-javascript-vanilla-reproduzindo-o-jogo-da-vida-de-john-conway-2iog&psig=AOvVaw3UFvqKBb-6QhU4eQSCoceZ&ust=1710677604380000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDY1Org-IQDFQAAAAAdAAAAABAE)" alt="Visualização das Regras">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdev.to%2Fakadot_%2Fpraticando-html-css-e-javascript-vanilla-reproduzindo-o-jogo-da-vida-de-john-conway-2iog&psig=AOvVaw3UFvqKBb-6QhU4eQSCoceZ&ust=1710677604380000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDY1Org-IQDFQAAAAAdAAAAABAE" alt="Visualização das Regras">
 </p>
 
 

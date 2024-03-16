@@ -40,13 +40,16 @@ Inicialmente decidi como minha matriz seria implementada, então decidi trabalha
 - ```void limparMatriz(vector<vector<int>>& matriz)```: Limpa a matriz desejada, deixando a mesma propícia para o rodízio do programa;
 - ```void menu()```: Implementa o menu responsável por executar o ciclo do programa;
 
-![Matriz.HPP](figuras/MatrizHPP.png)
-![Matriz.CPP](figuras/MATRIZCPP1.png)
-![Matriz.CPP](figuras/MATRIZCPP2.png)
-![Matriz.CPP](figuras/MATRIZCPP3.png)
-![Matriz.CPP](figuras/MATRIZCPP4.png)
-![Matriz.CPP](figuras/MATRIZCPP5.png)
-![Main](figuras/MAIN.png)
+<p align="center">
+  <img src="figuras/MatrizHPP.png" alt="Matriz.hpp">
+  <img src="figuras/MATRIZCPP1.png" alt="Matriz.cpp">
+  <img src="figuras/MATRIZCPP2.png" alt="Matriz.cpp">
+  <img src="figuras/MATRIZCPP3.png" alt="Matriz.cpp">
+  <img src="figuras/MATRIZCPP4.png" alt="Matriz.cpp">
+  <img src="figuras/MATRIZCPP5.png" alt="Matriz.cpp">
+  <img src="figuras/MAIN.png" alt="Main">
+</p>
+
 </p>
 
 

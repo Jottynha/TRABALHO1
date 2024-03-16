@@ -30,7 +30,18 @@ Toda célula viva com dois ou três vizinhos vivos permanece viva.
 - ```main.cpp```: arquivo principal.
 
 ## Resolução do problema
+<p align="justify">
+Inicialmente decidi como minha matriz seria implementada, então decidi trabalhar com a biblioteca "vector" devido a sua facilidade na manipulação de vetores. Transformando a minha matriz em um vetor de vetores de tipo inteiro. Também precisaria da biblioteca "fstream" para manipular os arquivos de texto. Além disso adaptei meu sistema para utilizar apenas duas matrizes e alternar entre estas durante a execução. Assim criei a classe Matriz para uma melhor organização e implementei os seguintes comandos:
+  
+- ```vector<vector<int>> lerMatriz(string arquivo)```: Recebe o nome do arquivo e lê a matriz contida no mesmo, retornando esta;
+- ```void printarMatriz(const vector<vector<int>>& matriz)```: Recebe a matriz e printa a mesma no terminal;
+- ```void criarGeracao(const vector<vector<int>>& entrada, vector<vector<int>>& saida)```: Recebe a matriz de entrada, aplica as regras do Jogo da Vida e implementa na segunda matriz;
+- ```void registrarMatriz(const vector<vector<int>>& matriz, const string& nomeArquivo,const int cont)```:Recebe a matriz e implementa no arquivo de texto, junto ao número de geração desejado;
+- ```void limparMatriz(vector<vector<int>>& matriz)```: Limpa a matriz desejada, deixando a mesma propícia para o rodízio do programa;
+- ```void menu()```: Implementa o menu responsável por executar o ciclo do programa;
 
+
+</p>
 
 
 ## Conclusão
@@ -38,9 +49,8 @@ Toda célula viva com dois ou três vizinhos vivos permanece viva.
 </p> 
 
 ## Referências
-<p align="center">
-  <a href="https://pt.wikipedia.org/wiki/Jogo_da_vida" target="_blank">Artigo da Wikipedia sobre o Jogo da Vida</a>
-</p>
+  Jogo da vida. In: WIKIPÉDIA: a enciclopédia livre. Flórida: Wikimedia Foundation, 2022. Disponível em: <a href="https://pt.wikipedia.org/wiki/Jogo_da_vida">https://pt.wikipedia.org/wiki/Jogo_da_vida</a>. Acesso em: 15 mar. 2024.
+
 
 
 ## Compilação e execução

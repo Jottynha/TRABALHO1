@@ -65,10 +65,11 @@ A função "limparMatriz" recebe uma matriz e limpa elemento por elemento atrav�
 A função "registrarMatriz" abre o arquivo para escrita, utiliza de um for do tamanho da matriz recebida e coloca dentro do arquivo a matriz desejada, junto com o número da geração estabelecido.
 
 Agora indo para os casos de testes, iremos testar matrizes distintas com tamanhos distintos,variando entre uma de tamanho 6x6, outra 8x8 e por fim uma 10x10. 
-
-Tem-se a seguinte matriz de entrada que deve resultar na seguinte matriz de saída:
+## CASO 1
+Tem-se a seguinte matriz de entrada:
 <p align="center">
   <img src="figuras/CASO1ENTRADA.png" alt="Entrada do caso 1" style="float:right; max-width:45%;">
+Que deve resultar na seguinte matriz de saída:
   <img src="figuras/CASO1SAIDA.png" alt="Saida esperada do caso 1" style="float:right; max-width:45%;">
 </p>
 

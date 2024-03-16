@@ -10,13 +10,21 @@ Este projeto implementa uma simulação do "Jogo da Vida" em uma matriz bidimens
 
 ## Funcionalidades
 
-- Inicialização da matriz com estado aleatório ou personalizado.
-- Visualização da matriz em cada geração.
+- Inicialização da matriz personalizada em arquivo de texto.
+- Visualização da matriz em cada geração em arquivo de texto.
 - Evolução das células de acordo com as regras do "Jogo da Vida".
 - Opções para definir as dimensões da matriz e o número de gerações a serem simuladas.
 
 ## Como usar
 
-1. Clone o repositório para o seu computador:
+1. Clone o repositório para o seu computador: git clone https://github.com/Jottynha/TRABALHO1.git
+
+2. Navegue até o diretório do projeto: cd src - cd main
+
+3. Compile o código (se necessário) e execute o programa: make clean, make, make run.
+
+
+   
+
 
 

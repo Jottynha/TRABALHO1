@@ -112,6 +112,6 @@ Tem-se a seguinte matriz de entrada com tamanho 10x10 que após 10 gerações de
 
 ## Contato
 <div>
-<a style="color:black" href="mailto:juliarezende34@gmail.com?subject=[GitHub]%20Source%20Dynamic%20Lists">
+<a style="color:black" href="mailto:jprs1308@gmail.com?subject=[GitHub]%20Source%20Dynamic%20Lists">
 ✉️ <i>jprs1308@gmail.com</i>
 </a>

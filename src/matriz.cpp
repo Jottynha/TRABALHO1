@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <sstream>
 using namespace std;
 
 vector<vector<int>> Matriz::lerMatriz(string nomeArquivo) {
@@ -9,17 +10,17 @@ vector<vector<int>> Matriz::lerMatriz(string nomeArquivo) {
     vector<vector<int>> matriz;
 
     if (arquivo.is_open()) {
-        int tamanho;
-        arquivo >> tamanho;
-        arquivo.ignore(); 
+        string linha;
+        getline(arquivo, linha); // lê a primeira linha para obter o tamanho da matriz
+        int tamanho = stoi(linha);
         matriz.resize(tamanho, vector<int>(tamanho));
+
         for (int i = 0; i < tamanho; ++i) {
+            getline(arquivo, linha); // lê uma linha inteira
+            stringstream ss(linha);
             for (int j = 0; j < tamanho; ++j) {
-                char caractere;
-                arquivo >> caractere;
-                matriz[i][j] = caractere - '0'; // Converte de char para int (ASCII)
+                ss >> matriz[i][j]; // lê o próximo número da linha
             }
-            arquivo.ignore();
         }
 
         arquivo.close();
